@@ -1,0 +1,51 @@
+# Jekyll Configuration for SpendWise Showcase
+title: SpendWise
+description: A comprehensive travel expense management application for solo and group travelers
+url: "" # Will be set to GitHub Pages URL
+baseurl: "" # Leave empty if deploying to username.github.io
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Theme settings (using custom layouts, not a theme)
+# theme: minima
+
+# Site settings
+author: SpendWise Team
+email: ""
+twitter_username: ""
+github_username: ""
+
+# Navigation
+navigation:
+  - title: Introduction
+    url: /
+  - title: Design & Architecture
+    url: /design
+  - title: User Interface
+    url: /ui
+  - title: Functionality
+    url: /functionality
+  - title: Conclusions
+    url: /conclusions
+  - title: Contributors
+    url: /contributors
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git
+  - .gitignore
+  - README.md
+
